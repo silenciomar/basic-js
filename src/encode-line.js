@@ -13,6 +13,14 @@ const { NotImplementedError } = require('../extensions/index.js');
 function encodeLine(/* str */) {
   throw new NotImplementedError('Not implemented');
   // remove line with error and write your code here
+  // let stack = [];
+  // let count = 0;
+  // for (let i = 0; i < str.length; i++) {
+  //   let letter = str[i];
+  //   let r = str.split(letter).length - 1;
+  //   stack.push(r, letter)
+  // }
+  // return stack;
 }
 
 module.exports = {
